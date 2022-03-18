@@ -12,7 +12,7 @@
 
 .auto{
     background-color: white;
-    height: 45px;
+    height: auto;
     width: 100%;
     border: 1px solid grey;
     display: flex;
@@ -27,8 +27,7 @@ body{
     background-image: url("./img.jpg");
     background-repeat: no-repeat;
     background-size:auto;
-    background-color: grey;
-    padding-top: 100px;
+
 }
 
 #searchbar{
@@ -41,6 +40,7 @@ body{
 
 .container{
     /* border: 1px solid red; */
+    box-shadow: -3px -3px 4px rgb(8, 8, 8);
     display: flex;
     flex-direction: column;
 }
@@ -73,7 +73,7 @@ body{
 @media screen and (max-width:600px) {
 .container{
     width: 75%;
-    margin: 1rem auto;
+    margin: 9rem auto;
 }
     
 .blank1{
@@ -97,7 +97,7 @@ body{
 @media screen and (min-width:600px) {
     .container{
         width: 50%;
-        margin: 2rem auto;
+        margin: 10rem auto;
     }
     .blank1{
         width: 10%;
